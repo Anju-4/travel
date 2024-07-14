@@ -1,0 +1,134 @@
+*{
+    font-family: Lugrasimo;
+    font-weight: 800;
+    font-size: 16px;
+}
+.navbr{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.carsl{
+    margin-top: -6rem;
+}
+.navbar-nav{
+    margin-right: 90px;
+}
+.nav-item{
+    margin-left: 11px;
+}
+.inside-carsl{
+    margin-top: -28%;
+    position: absolute;
+    margin-left: 7%;
+}
+.travel{
+    background-color: rgb(242, 238, 238);
+}
+.visal{
+    
+  margin-top: -20rem;
+  margin-left: 5rem;
+}
+.visaln{
+    margin-top: -20rem;
+}
+.carousel-inner{
+    cursor: pointer;
+}
+.view{
+    margin-left: 29rem;
+}
+.heading{
+    margin-top: -39rem;
+}
+.vdo{
+    height: 45vh;
+}
+.cont{
+    margin-top: 8rem;
+    /* position: absolute; */
+    
+}
+.day{
+    font-size: 13px;
+}
+.dayb{
+    font-size: 13px;
+    width: 34%;
+    padding: 0;
+}
+.card:hover img {
+	opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.our{
+    margin-top: 6rem;
+}
+
+.service:hover{
+    animation: flip 0.4s;
+}
+@keyframes flip{
+    0%{
+        transform: scaleX(-1);
+    }
+  
+}
+.content{
+    font-size: 14px;
+}
+.cent2{
+    font-size: 13.4px;
+    font-weight: 400;
+}
+.view2{
+    margin-left: 35rem;
+}
+.type{
+    width: 32%;
+    height: 61vh;
+    padding-left: 7rem;
+    padding-top: 4.5rem;
+}
+.trty{
+    margin-left: -22px;
+    
+}
+.clipart {
+    margin-top: -45%;
+  
+}
+.scond{
+    margin-top: 13.5%;
+}
+ .img6:hover{
+    animation: flip 0.6s;
+}
+@keyframes flip{
+    0%{
+        transform: scaleX(-1);
+    }
+    
+  
+}
+.in{
+    width: 32%;
+}

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./travel.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- goole fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Macondo&family=Monoton&family=Rubik+Doodle+Triangles&family=Rubik+Moonrocks&family=Sedan+SC&display=swap"
+    rel="stylesheet">
+  <!-- mdb -->
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <div class="navbr w-100">
+    <nav class="navbar navbar-expand-lg bg-body-secondary mt-2 w-75" style="margin-left:8rem ;">
+      <div class="container">
+
+        <img class="navbar-brand p-0 m-0 " style="width:11.5%;"
+          src="https://www.pngall.com/wp-content/uploads/2/Travel-PNG-Image-HD.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active border bg-warning  p-2" style="border-radius: 8%;" aria-current="page"
+                href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">Sample Page</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-warning " type="submit">Buy Now</button>
+            </li>
+          </ul>
+          <form class="d-flex me-5" role="search">
+            <i class="fa-solid fa-magnifying-glass m-2" aria-label="Search"></i>
+            <button class="btn btn-outline-success ms-4" type="submit">Contact Us</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- carousel -->
+  <div class="carsl">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img src="https://wallpapers.com/images/hd/travel-hd-wruelfhuiyy7ewtw.jpg" class="d-block w-100"
+            style="height: 100vh;" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <img src="https://www.tourradar.com/days-to-come/wp-content/uploads/2019/04/QuotesOG.jpg"
+            class="d-block w-100" style="height: 100vh;" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/free-photo/3d-rendering-chinese-great-wall_23-2151306746.jpg"
+            class="d-block w-100" style="height: 100vh;" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="inside-carsl">
+      <h2 class="ms-5 text-warning">learn new things by traveling <br> the word</h2>
+      <p class="text-light ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>nobis adipisci dolorum
+        commodi aliquid doloribus totam, odio ullam.</p>
+      <button class="btn btn-warning text-light ms-5">View all Travels</button>
+      <div class="m-5 text-light ">
+        <i class="fa-brands fa-instagram p-2 me-2 rounded bg-warning"></i>
+        <i class="fa-brands fa-facebook p-2 me-2 rounded bg-warning"></i>
+        <i class="fa-brands fa-twitter p-2 me-2 rounded bg-warning"></i>
+        <i class="fa-brands fa-linkedin p-2 me-2 rounded bg-warning"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- find travel -->
+  <div class="bg-warning w-100 text-light " style="height: 25vh;">
+    <h2 class="pt-4 text-center ">Find Your Travels</h2>
+    <p class="text-center"> consectetur adipisicing elit dicta corrupti voluptas labore </p>
+    <div class="container travel mt-3 p-2 w-85">
+
+      <form class="row row-cols-lg-auto  p-3 g-3 align-items-center">
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Tour Name</label>
+          <div class="input-group">
+
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Tour Name">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormSelectPref">Tour Type</label>
+          <select class="form-select" id="inlineFormSelectPref">
+            <option selected>Tour Type</option>
+            <option value="1">Educational tours</option>
+            <option value="2">Adventure Tours</option>
+            <option value="3">Ecotourism</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Price</label>
+          <div class="input-group">
+
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Min Price">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Price</label>
+          <div class="input-group">
+
+            <input type="text" class="form-control w-15" id="inlineFormInputGroupUsername" placeholder="Max Price">
+          </div>
+        </div>
+
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-warning text-light rounded-pill">Search</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+  <!-- Tour By Destination -->
+  <div class="container mt-5">
+    <h2 class="pt-5 text-center mt-3">Find a Tour By Destination</h2>
+    <p class="text-center mt-3"> consectetur elit dicta corrupti voluptas labore </p>
+    <div>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active ms-5" data-bs-interval="6000">
+
+            <img style="height: 30vh;" src="https://cdn.pixabay.com/photo/2022/05/04/09/13/bordeaux-7173548_640.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+            <img style="height: 30vh;"
+              src="https://www.telegraph.co.uk/content/dam/Travel/Destinations/Asia/India/Mumbai/gateway-of-india-mumbai.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+            <img style="height: 30vh;"
+              src="https://c4.wallpaperflare.com/wallpaper/537/664/855/nature-water-mountains-trees-wallpaper-preview.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+
+          </div>
+          <!-- next -->
+          <div class="carousel-item ms-5" data-bs-interval="4000">
+
+
+            <img style="height: 30vh;" src="https://i.pinimg.com/736x/20/44/be/2044be061b025418f8d871748fe09e66.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+            <img style="height: 30vh;"
+              src="https://www.ilcenacolodeiviaggiatori.it/sito/wp-content/uploads/2023/12/monumento-indiano-gadi-sagar-rajasthan.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+
+
+            <img style="height: 30vh;"
+              src="https://wallup.net/wp-content/uploads/2017/11/17/307444-Dubai-city-aerial_view-skyscraper.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+          </div>
+          <!-- next -->
+          <div class="carousel-item ms-5">
+            <img style="height: 30vh;"
+              src="https://st4.depositphotos.com/4491411/28367/i/450/depositphotos_283674996-stock-photo-traveler-woman-taking-photo-eiffel.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+            <img style="height: 30vh;"
+              src="https://thumbs.dreamstime.com/b/running-taxis-near-bmc-municipal-building-unesco-world-heritage-site-mumbai-india-january-178902019.jpg"
+              class="rounded-pill ms-5 me-2 w-25" alt="...">
+
+
+            <img style="height: 30vh;"
+              src="https://static.vecteezy.com/system/resources/thumbnails/004/881/312/small/sunset-on-maldives-island-luxury-water-villas-resort-and-wooden-pier-beautiful-sky-and-clouds-and-beach-background-for-summer-vacation-holiday-and-travel-concept-photo.jpg"
+              class="rounded-pill ms-5 w-25" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <span class="visually btn btn-warning rounded-pill visal">Prev</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="visually btn btn-warning rounded-pill visaln">Next</span>
+        </button>
+      </div>
+    </div>
+    <button class="mt-4 btn btn-outline-dark view rounded-pill ">View All Destination</button>
+  </div>
+  <!-- popular tour -->
+  <div class="mt-5">
+    <video class="vdo object-fit-fill border rounded h-25 w-100"
+      src="https://videos.pexels.com/video-files/20600550/20600550-hd_1280_720_30fps.mp4" disablepictureinpicture
+      autoplay loop muted preload="auto" playsinline type="video/mp4"></video>
+    <div class="head">
+      <h2 class="text-center text-light heading">Popular Tours</h2>
+      <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container-fluid cont">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://c1.wallpaperflare.com/preview/176/886/455/uzbekistan-mosque-samarkand-registan.jpg"
+              class="card-img-top p-3 rounded" alt="...">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Samarkand Dusk</h5>
+              <div class="ms-5">
+                <i class="fa-solid text-secondary ms-2 fa-earth-americas"></i>
+                <i class="fa-solid text-secondary ms-1 fa-road"></i>
+                <i class="fa-solid text-secondary ms-1 fa-plane"></i>
+                <i class="fa-solid text-secondary ms-1 fa-building"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="ms-4 mb-3">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <h6 class="day">2 days 1 Night</h6>
+              </div>
+              <div class="dayb me-4">
+                <button class="btn btn-warning text-light ">Book Now</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://media.istockphoto.com/id/467599830/photo/beaty-limestone-rock.jpg?s=612x612&w=0&k=20&c=tlY8kBdaAWTe89Rd1DCr8Vuy9QTG2QIs66bNzuzypfI="
+              class="card-img-top p-3 rounded" alt="...">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Thailand Beach</h5>
+              <div class="ms-5">
+                <i class="fa-solid text-secondary ms-4 fa-earth-americas"></i>
+                <i class="fa-solid text-secondary ms-1 fa-road"></i>
+                <i class="fa-solid text-secondary ms-1 fa-plane"></i>
+                <i class="fa-solid text-secondary ms-1 fa-building"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="ms-4 mb-3">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <h6 class="day">2 days 1 Night</h6>
+              </div>
+              <div class="dayb me-4">
+                <button class="btn btn-warning text-light ">Book Now</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://media.istockphoto.com/id/1384148538/photo/the-heart-of-rome-seen-from-a-terrace-in-the-prati-district-with-the-dome-of-st-peters.webp?b=1&s=170667a&w=0&k=20&c=RsLwe1nww_z7qKB7B8J2XhQNffiY_I6qnobUF0V39TE="
+              class="card-img-top p-3 rounded" alt="...">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Roma Italy </h5>
+              <div class="ms-5">
+                <i class="fa-solid text-secondary ms-5 fa-earth-americas"></i>
+                <i class="fa-solid text-secondary ms-1 fa-road"></i>
+                <i class="fa-solid text-secondary ms-1 fa-plane"></i>
+                <i class="fa-solid text-secondary ms-1 fa-building"></i>
+              </div>
+
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="ms-4 mb-3">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <h6 class="day">2 days 1 Night</h6>
+              </div>
+              <div class="dayb me-4">
+                <button class="btn btn-warning text-light ">Book Now</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- our services -->
+  <div>
+    <h3 class="text-center our">Our Services</h3>
+    <p class="text-center text-secondary"> consectetur adipisicing elit architecto providentillum</p>
+    <div class="d-flex justify-content-evenly mt-5 ms-5 container ">
+      <div class="ms-4">
+        <img class="service ms-5 w-50 " src="https://cdn-icons-png.freepik.com/512/1350/1350172.png" alt="">
+        <h4 class="ms-5 mt-2">Transportation</h4>
+        <p class="text-secondary me-5 text-center content"> consectetur adipisicing elit. Molestiae temporibus ipsa
+          fugiat repudiandae dolores officiis, </p>
+      </div>
+      <div class="ms-4 ">
+        <img class="service  w-50 ms-5 "
+          src="https://broera.com/wp-content/uploads/2023/10/4352120_2304391-min-removebg-preview.png" alt="">
+        <h4 class="mt-4 ms-5">Hotel Booking</h4>
+        <p class="text-secondary text-center me-5 content"> consectetur adipisicing elit. Molestiae temporibus ipsa
+          fugiat repudiandae dolores officiis, </p>
+      </div>
+      <div class="">
+        <img class="service ms-5 w-50"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgb8c_Zy5Uh2O6NU9RaPoX4GQpKWUzEU3ctg&s" alt="">
+        <h4 class="mt-3 ms-4">Shopping centres</h4>
+        <p class="text-secondary text-center content me-5 "> consectetur adipisicing elit. Molestiae temporibus ipsa
+          fugiat repudiandae dolores officiis, </p>
+      </div>
+    </div>
+  </div>
+  <!-- Special offer -->
+  <div>
+    <h3 class="text-center our">Special Offers</h3>
+    <p class="text-center  text-secondary">Reprehenderit quasi possimus deleniti rerum molestias </p>
+    <div class="container text-center">
+      <!-- firsttt -->
+      <div class="row ">
+        <div class="col-4 ">
+          <img class="img-fluid rounded-start"
+            src="https://media.istockphoto.com/id/491815112/photo/wildflower-trail.jpg?s=612x612&w=0&k=20&c=nAh4sKnPLAYGJN2ksV6Hg8FTtg2FBRFYNKj8UaBu9Nk="
+            alt="">
+        </div>
+        <div class="col-5 shadow-sm">
+          <h5 class="mt-4">Peek Mountain View</h5>
+
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <h6 class="day">2 days 1 Night</h6>
+          <p class=" cent2 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque id,
+            dolorem nulla consectetur ea magni eaque asperiores consequuntur ex repellendus sapiente iusto  quibusdam</p>
+        </div>
+        <div class="col-3 rounded-end bg-warning">
+          <div class="ms-3 mt-5">
+            <i class="fa-solid text-light ms-2 fa-earth-americas"></i>
+            <i class="fa-solid text-light ms-2 fa-road"></i>
+            <i class="fa-solid text-light ms-2 fa-plane"></i>
+            <i class="fa-solid text-light ms-2 fa-building"></i>
+          </div>
+          <div class="mt-4 fs-3 text-light">1500 <span class="fs-2 mt-3">$</span></div>
+          <div class="mt-3">
+            <button class="btn btn-warning border rounded-pill text-light border-2">View Details</button>
+
+          </div>
+        </div>
+      </div>
+          <!-- seconddd -->
+
+      <div class="row mt-5 ">
+        <div class="col-4 ">
+          <img class="img-fluid w-95 rounded-start"
+            src="https://www.travelandleisure.com/thmb/5_0v1GoRuI-Aqapsll7wfXP8P7M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/hot-air-balloons-scenic-cappadocia-turkey-HOTAIR0605-2d274da1dbaf40cda6c632594a52e08c.jpg"
+            alt="">
+        </div>
+        <div class="col-5 shadow-sm">
+          <h5 class="mt-4">Hot Balloon Special Journey</h5>
+
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <h6 class="day">2 days 1 Night</h6>
+          <p class=" cent2 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque id,
+            dolorem nulla consectetur ex repellendus sapiente iusto  quibusdam</p>
+        </div>
+        <div class="col-3 rounded-end bg-warning">
+          <div class="ms-3 mt-5">
+            <i class="fa-solid text-light ms-2 fa-earth-americas"></i>
+            <i class="fa-solid text-light ms-2 fa-road"></i>
+            <i class="fa-solid text-light ms-2 fa-plane"></i>
+            <i class="fa-solid text-light ms-2 fa-building"></i>
+          </div>
+          <div class="mt-4 fs-3 text-light">1500 <span class="fs-2 mt-3">$</span></div>
+          <div class="mt-3 mb-4">
+            <button class="btn btn-warning border rounded-pill text-light border-2">View Details</button>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <button class="mt-5 btn text-dark fs-6 btn-outline-warning view2 rounded-pill ">View All Offers</button>
+
+  </div>
+  <!-- Tour Types -->
+   <div class="row  mt-5 ">
+    <div class="col-4 ms-2 mb-5">
+      <div class="position-absolute  opacity-75  bg-warning type ">
+        <h5 class="d-inline opacity-100 ms-5 mt-3 text-light fw-bolder fs-4">Tour Types</h5>
+        <p class=" text-start  mt-2 text-light  opacity-1">Qui vero hic sed fuga et doloribus facilis  quibusdam, provident sit laudantium pariatur, ipsa, nam dolores quam nisi deserunt animi.</p>
+       </div>
+      <img class="img-fluid w-100 h-75 " src="https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?w=996&t=st=1719729614~exp=1719730214~hmac=9046b0fefd957623bf9187496e18b953f9702f9c9e3cb74f89e2366273680da8" alt="">
+    
+    </div>
+   <div class="col-8 trty mb-5">
+    <img class="img-fluid opacity-50 h-75 w-100" src="https://wallpaper.dog/large/10733049.jpg" alt="">
+    <div class="position-absolute d-flex mt-3">
+     <div class="clipart ms-5 "> 
+      <img class="w-25 mt-5 ms-5 img6" src="https://cdn.icon-icons.com/icons2/706/PNG/512/hot-air-balloon_icon-icons.com_61845.png" alt="">
+    <h4 class=" mt-2 fw-bolder text-dark ms-4">Air Rides</h4></div>
+    <div class="clipart "> 
+      <img class="w-25 mt-5 ms-3 img6" src="https://cdn.icon-icons.com/icons2/644/PNG/512/yellow_hiking_icon-icons.com_59570.png" alt="">
+      <h4 class="ms-1 mt-2 fw-bolder text-dark">Hiking</h4></div>
+      <div class="clipart me-5">
+        <i class="fa-solid fa-2x text-light bg-warning p-3 rounded-circle mt-5 me-4 img6 fa-ship"></i>
+        <h4 class=" mt-2 fw-bolder text-dark me-5">Cruises</h4></div>
+      </div>
+      <div class="position-absolute scond d-flex">
+        <div class="clipart ms-5"> 
+          <img class=" mt-5 ms-5 img6 in" src="https://cdn.icon-icons.com/icons2/706/PNG/512/swimming-pool_icon-icons.com_61823.png" alt="">
+          <h4 class=" mt-2 fw-bolder text-dark ms-4">Swimming</h4></div>
+       <div class="clipart ms-5"> 
+         <img class=" mt-5 ms-5 img6 in bg-warning rounded-circle p-3" src="https://cdn.icon-icons.com/icons2/907/PNG/512/mountain-summit_icon-icons.com_70440.png" alt="">
+         <h4 class="ms-4 mt-2 fw-bolder text-dark">Mountain</h4></div>
+         <div class="clipart ms-5">
+          <img class=" mt-5 img6 in ms-5 bg-warning p-3 rounded-circle" src="https://cdn.icon-icons.com/icons2/38/PNG/512/hiking_sport_5043.png" alt="">
+           <h4 class=" mt-2 fw-bolder text-dark ms-4">Waliking</h4></div>
+         </div>
+      
+    <div>
+     
+    </div>
+    <div >
+
+    </div>
+   </div>
+   </div>
+   <!-- contact info -->
+   <div class="container">
+      <div class="row  ms-3 ">
+      <div class="col-5 h-75 shadow-lg p-3 bg-body-tertiary mt-5 rounded">
+       <h3 class="m-4">Contact Info</h3>
+       <div class="d-flex ms-4  align-items-center">
+        <i class="fa-solid fa-phone fa-lg "></i>  <span class="ms-3">123-456-789</span>
+       </div>
+       <div class="d-flex ms-4 mt-3 align-items-center">
+        <i class="fa-regular fa-envelope-open fa-lg"></i>   
+              <span class="ms-3">thetripyoull@gmail.com</span>
+       </div>
+       <div class="d-flex ms-4 mt-3 align-items-center">
+        <i class="fa-solid fa-location-arrow fa-xl"></i>      
+           <span class="ms-3">453 Maretin   Vietnam</span>
+       </div>
+       
+         <button class="rounded form-control d-flex justify-content-between mb-5 mt-4  rounded-pill border-dark " >Email Address  <i class="fa-solid fa-paper-plane me-3"></i></button>
+        
+       
+      </div>
+      <div class="col-7">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255284.58649415473!2d103.65399495583503!3d1.280686510098555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0b8c3c76ed33%3A0x815b08d21944354b!2sLEGOLAND%20Malaysia!5e0!3m2!1sen!2sin!4v1720969177195!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
+      </div>
+   </div>
+  
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary p-2 mt-5">
+ 
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
+          <!-- Content -->
+          <h5 class="text-uppercase fw-bold mb-4 text-warning">
+            <i class="fas fa-gem me-3"></i>Travel
+          </h5>
+          <p class="text-muted">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti aspernatur quam in esse! Numquam iste ea aliquid quas tempore.
+          </p>
+          <div class=" text-light ">
+            <i class="fa-brands fa-instagram p-2 me-2 rounded-circle bg-warning"></i>
+            <i class="fa-brands fa-facebook p-2 me-2 rounded-circle bg-warning"></i>
+            <i class="fa-brands fa-twitter p-2 me-2 rounded-circle bg-warning"></i>
+            <i class="fa-brands fa-linkedin p-2 me-2 rounded-circle bg-warning"></i>
+            <i class="fa-brands fa-youtube p-2 me-2 rounded-circle bg-warning"></i>
+
+          </div>
+          <p class="mt-3 text-danger">Journey with more memories</p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase text-warning fw-bold mb-4">
+            Our Services 
+          </h6>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Hiking</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Camping</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Attractions</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Nature</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Water Park</h6>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase text-warning fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Home</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>About Us</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Our Services</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Our Tours</h6>
+          </p>
+          <p>
+            <h6><i class="fa-solid fa-plane me-2"></i>Contact Us</h6>
+          </p>
+        
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold text-warning mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            thetripyoull@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    ©Copyright @2022 <span class="text-warning">Travel World</span>, All Rights Reserved.
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+
+</html>
